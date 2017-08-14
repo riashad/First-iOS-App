@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A959DD471F4238BB00C48053 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A959DD461F4238BB00C48053 /* AppDelegate.swift */; };
+		A959DD491F4238BB00C48053 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A959DD481F4238BB00C48053 /* ViewController.swift */; };
+		A959DD4C1F4238BC00C48053 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A959DD4A1F4238BC00C48053 /* Main.storyboard */; };
+		A959DD4E1F4238BC00C48053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A959DD4D1F4238BC00C48053 /* Assets.xcassets */; };
+		A959DD511F4238BC00C48053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A959DD4F1F4238BC00C48053 /* LaunchScreen.storyboard */; };
+		A959DD5C1F4238BC00C48053 /* Basic_Text_Input___Show_Task_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A959DD5B1F4238BC00C48053 /* Basic_Text_Input___Show_Task_1Tests.swift */; };
+		A959DD671F4238BC00C48053 /* Basic_Text_Input___Show_Task_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A959DD661F4238BC00C48053 /* Basic_Text_Input___Show_Task_1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A959DD581F4238BC00C48053 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A959DD3B1F4238BA00C48053 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A959DD421F4238BA00C48053;
+			remoteInfo = "Basic Text Input & Show Task 1";
+		};
+		A959DD631F4238BC00C48053 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A959DD3B1F4238BA00C48053 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A959DD421F4238BA00C48053;
+			remoteInfo = "Basic Text Input & Show Task 1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A959DD431F4238BB00C48053 /* Basic Text Input & Show Task 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Basic Text Input & Show Task 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A959DD461F4238BB00C48053 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A959DD481F4238BB00C48053 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A959DD4B1F4238BC00C48053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A959DD4D1F4238BC00C48053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A959DD501F4238BC00C48053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A959DD521F4238BC00C48053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A959DD571F4238BC00C48053 /* Basic Text Input & Show Task 1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Basic Text Input & Show Task 1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A959DD5B1F4238BC00C48053 /* Basic_Text_Input___Show_Task_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Basic_Text_Input___Show_Task_1Tests.swift"; sourceTree = "<group>"; };
+		A959DD5D1F4238BC00C48053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A959DD621F4238BC00C48053 /* Basic Text Input & Show Task 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Basic Text Input & Show Task 1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A959DD661F4238BC00C48053 /* Basic_Text_Input___Show_Task_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Basic_Text_Input___Show_Task_1UITests.swift"; sourceTree = "<group>"; };
+		A959DD681F4238BC00C48053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A959DD401F4238BA00C48053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A959DD541F4238BC00C48053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A959DD5F1F4238BC00C48053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A959DD3A1F4238BA00C48053 = {
+			isa = PBXGroup;
+			children = (
+				A959DD451F4238BB00C48053 /* Basic Text Input & Show Task 1 */,
+				A959DD5A1F4238BC00C48053 /* Basic Text Input & Show Task 1Tests */,
+				A959DD651F4238BC00C48053 /* Basic Text Input & Show Task 1UITests */,
+				A959DD441F4238BB00C48053 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A959DD441F4238BB00C48053 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A959DD431F4238BB00C48053 /* Basic Text Input & Show Task 1.app */,
+				A959DD571F4238BC00C48053 /* Basic Text Input & Show Task 1Tests.xctest */,
+				A959DD621F4238BC00C48053 /* Basic Text Input & Show Task 1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A959DD451F4238BB00C48053 /* Basic Text Input & Show Task 1 */ = {
+			isa = PBXGroup;
+			children = (
+				A959DD461F4238BB00C48053 /* AppDelegate.swift */,
+				A959DD481F4238BB00C48053 /* ViewController.swift */,
+				A959DD4A1F4238BC00C48053 /* Main.storyboard */,
+				A959DD4D1F4238BC00C48053 /* Assets.xcassets */,
+				A959DD4F1F4238BC00C48053 /* LaunchScreen.storyboard */,
+				A959DD521F4238BC00C48053 /* Info.plist */,
+			);
+			path = "Basic Text Input & Show Task 1";
+			sourceTree = "<group>";
+		};
+		A959DD5A1F4238BC00C48053 /* Basic Text Input & Show Task 1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A959DD5B1F4238BC00C48053 /* Basic_Text_Input___Show_Task_1Tests.swift */,
+				A959DD5D1F4238BC00C48053 /* Info.plist */,
+			);
+			path = "Basic Text Input & Show Task 1Tests";
+			sourceTree = "<group>";
+		};
+		A959DD651F4238BC00C48053 /* Basic Text Input & Show Task 1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A959DD661F4238BC00C48053 /* Basic_Text_Input___Show_Task_1UITests.swift */,
+				A959DD681F4238BC00C48053 /* Info.plist */,
+			);
+			path = "Basic Text Input & Show Task 1UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A959DD421F4238BA00C48053 /* Basic Text Input & Show Task 1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A959DD6B1F4238BC00C48053 /* Build configuration list for PBXNativeTarget "Basic Text Input & Show Task 1" */;
+			buildPhases = (
+				A959DD3F1F4238BA00C48053 /* Sources */,
+				A959DD401F4238BA00C48053 /* Frameworks */,
+				A959DD411F4238BA00C48053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Basic Text Input & Show Task 1";
+			productName = "Basic Text Input & Show Task 1";
+			productReference = A959DD431F4238BB00C48053 /* Basic Text Input & Show Task 1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A959DD561F4238BC00C48053 /* Basic Text Input & Show Task 1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A959DD6E1F4238BC00C48053 /* Build configuration list for PBXNativeTarget "Basic Text Input & Show Task 1Tests" */;
+			buildPhases = (
+				A959DD531F4238BC00C48053 /* Sources */,
+				A959DD541F4238BC00C48053 /* Frameworks */,
+				A959DD551F4238BC00C48053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A959DD591F4238BC00C48053 /* PBXTargetDependency */,
+			);
+			name = "Basic Text Input & Show Task 1Tests";
+			productName = "Basic Text Input & Show Task 1Tests";
+			productReference = A959DD571F4238BC00C48053 /* Basic Text Input & Show Task 1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A959DD611F4238BC00C48053 /* Basic Text Input & Show Task 1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A959DD711F4238BC00C48053 /* Build configuration list for PBXNativeTarget "Basic Text Input & Show Task 1UITests" */;
+			buildPhases = (
+				A959DD5E1F4238BC00C48053 /* Sources */,
+				A959DD5F1F4238BC00C48053 /* Frameworks */,
+				A959DD601F4238BC00C48053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A959DD641F4238BC00C48053 /* PBXTargetDependency */,
+			);
+			name = "Basic Text Input & Show Task 1UITests";
+			productName = "Basic Text Input & Show Task 1UITests";
+			productReference = A959DD621F4238BC00C48053 /* Basic Text Input & Show Task 1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A959DD3B1F4238BA00C48053 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Riashad Noor";
+				TargetAttributes = {
+					A959DD421F4238BA00C48053 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					A959DD561F4238BC00C48053 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A959DD421F4238BA00C48053;
+					};
+					A959DD611F4238BC00C48053 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A959DD421F4238BA00C48053;
+					};
+				};
+			};
+			buildConfigurationList = A959DD3E1F4238BA00C48053 /* Build configuration list for PBXProject "Basic Text Input & Show Task 1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A959DD3A1F4238BA00C48053;
+			productRefGroup = A959DD441F4238BB00C48053 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A959DD421F4238BA00C48053 /* Basic Text Input & Show Task 1 */,
+				A959DD561F4238BC00C48053 /* Basic Text Input & Show Task 1Tests */,
+				A959DD611F4238BC00C48053 /* Basic Text Input & Show Task 1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A959DD411F4238BA00C48053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A959DD511F4238BC00C48053 /* LaunchScreen.storyboard in Resources */,
+				A959DD4E1F4238BC00C48053 /* Assets.xcassets in Resources */,
+				A959DD4C1F4238BC00C48053 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A959DD551F4238BC00C48053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A959DD601F4238BC00C48053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A959DD3F1F4238BA00C48053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A959DD491F4238BB00C48053 /* ViewController.swift in Sources */,
+				A959DD471F4238BB00C48053 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A959DD531F4238BC00C48053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A959DD5C1F4238BC00C48053 /* Basic_Text_Input___Show_Task_1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A959DD5E1F4238BC00C48053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A959DD671F4238BC00C48053 /* Basic_Text_Input___Show_Task_1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A959DD591F4238BC00C48053 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A959DD421F4238BA00C48053 /* Basic Text Input & Show Task 1 */;
+			targetProxy = A959DD581F4238BC00C48053 /* PBXContainerItemProxy */;
+		};
+		A959DD641F4238BC00C48053 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A959DD421F4238BA00C48053 /* Basic Text Input & Show Task 1 */;
+			targetProxy = A959DD631F4238BC00C48053 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A959DD4A1F4238BC00C48053 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A959DD4B1F4238BC00C48053 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A959DD4F1F4238BC00C48053 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A959DD501F4238BC00C48053 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A959DD691F4238BC00C48053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A959DD6A1F4238BC00C48053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A959DD6C1F4238BC00C48053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Basic Text Input & Show Task 1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.riashad.Basic-Text-Input---Show-Task-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A959DD6D1F4238BC00C48053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Basic Text Input & Show Task 1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.riashad.Basic-Text-Input---Show-Task-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A959DD6F1F4238BC00C48053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Basic Text Input & Show Task 1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.riashad.Basic-Text-Input---Show-Task-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Basic Text Input & Show Task 1.app/Basic Text Input & Show Task 1";
+			};
+			name = Debug;
+		};
+		A959DD701F4238BC00C48053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Basic Text Input & Show Task 1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.riashad.Basic-Text-Input---Show-Task-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Basic Text Input & Show Task 1.app/Basic Text Input & Show Task 1";
+			};
+			name = Release;
+		};
+		A959DD721F4238BC00C48053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Basic Text Input & Show Task 1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.riashad.Basic-Text-Input---Show-Task-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Basic Text Input & Show Task 1";
+			};
+			name = Debug;
+		};
+		A959DD731F4238BC00C48053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Basic Text Input & Show Task 1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.riashad.Basic-Text-Input---Show-Task-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Basic Text Input & Show Task 1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A959DD3E1F4238BA00C48053 /* Build configuration list for PBXProject "Basic Text Input & Show Task 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A959DD691F4238BC00C48053 /* Debug */,
+				A959DD6A1F4238BC00C48053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A959DD6B1F4238BC00C48053 /* Build configuration list for PBXNativeTarget "Basic Text Input & Show Task 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A959DD6C1F4238BC00C48053 /* Debug */,
+				A959DD6D1F4238BC00C48053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A959DD6E1F4238BC00C48053 /* Build configuration list for PBXNativeTarget "Basic Text Input & Show Task 1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A959DD6F1F4238BC00C48053 /* Debug */,
+				A959DD701F4238BC00C48053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A959DD711F4238BC00C48053 /* Build configuration list for PBXNativeTarget "Basic Text Input & Show Task 1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A959DD721F4238BC00C48053 /* Debug */,
+				A959DD731F4238BC00C48053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A959DD3B1F4238BA00C48053 /* Project object */;
+}

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0820"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A959DD421F4238BA00C48053"
+               BuildableName = "Basic Text Input &amp; Show Task 1.app"
+               BlueprintName = "Basic Text Input &amp; Show Task 1"
+               ReferencedContainer = "container:Basic Text Input &amp; Show Task 1.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A959DD561F4238BC00C48053"
+               BuildableName = "Basic Text Input &amp; Show Task 1Tests.xctest"
+               BlueprintName = "Basic Text Input &amp; Show Task 1Tests"
+               ReferencedContainer = "container:Basic Text Input &amp; Show Task 1.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A959DD611F4238BC00C48053"
+               BuildableName = "Basic Text Input &amp; Show Task 1UITests.xctest"
+               BlueprintName = "Basic Text Input &amp; Show Task 1UITests"
+               ReferencedContainer = "container:Basic Text Input &amp; Show Task 1.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A959DD421F4238BA00C48053"
+            BuildableName = "Basic Text Input &amp; Show Task 1.app"
+            BlueprintName = "Basic Text Input &amp; Show Task 1"
+            ReferencedContainer = "container:Basic Text Input &amp; Show Task 1.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A959DD421F4238BA00C48053"
+            BuildableName = "Basic Text Input &amp; Show Task 1.app"
+            BlueprintName = "Basic Text Input &amp; Show Task 1"
+            ReferencedContainer = "container:Basic Text Input &amp; Show Task 1.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A959DD421F4238BA00C48053"
+            BuildableName = "Basic Text Input &amp; Show Task 1.app"
+            BlueprintName = "Basic Text Input &amp; Show Task 1"
+            ReferencedContainer = "container:Basic Text Input &amp; Show Task 1.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
